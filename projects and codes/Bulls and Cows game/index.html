@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulls and Cows</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div style='display:flex; height:100vh; flex-direction: column; text-align: center;'>
+        <h1>Быки и Коровы</h1>
+        <p style="width: 50%; margin: 0 auto;">Компьютер загадывает 4 произвольные цифры. Вам необходимо угадать, какие
+            цифры были загаданы. Если угадали
+            позицию цифры, прибавиться 1 к быкам, а если только цифру в списке, но не позицию, то прибавиться 1 к
+            коровам.
+            Игра идет пока не будет 4 быка.</p>
+        <input type="button" id="gameStart" value="Start Game" onclick="guessNumber()"
+            style='width:100px; height:50px; margin:100px auto;'>
+    </div>
+
+</body>
+
+</html>
