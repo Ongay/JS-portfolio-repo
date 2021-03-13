@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="925" y="4510" width="21" height="21" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#c7b299"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="_01" data-name="01" class="cls-1" d="M935.5,4510a10.5,10.5,0,1,0,10.5,10.5A10.5,10.5,0,0,0,935.5,4510Zm3.289,11-4.539,4.54a0.7,0.7,0,0,1-.99-0.99l4.047-4.05-4.047-4.05a0.7,0.7,0,0,1,.99-0.99l4.539,4.54A0.712,0.712,0,0,1,938.789,4521Z" transform="translate(-925 -4510)"/>
+</svg>
