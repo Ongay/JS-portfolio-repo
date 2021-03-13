@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Main page</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Varela+Round&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="style/reset.css">
+	<link rel="stylesheet" href="style/style.css">
+	<script src="https://kit.fontawesome.com/153f6589a7.js" crossorigin="anonymous"></script>
+	<script src="js/main.js" defer></script>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header-wrap fixed-width">
+			<div class="header-container">
+				<div id="header-menu" class="header-menu">
+					<a href="#" class="header-burger"></a>
+				</div>
+				<ul class="header-list">
+					<li>
+						<a href="#" class="header-item">Tour</a>
+					</li>
+					<li>
+						<a href="#" class="header-item">Features</a>
+					</li>
+					<li>
+						<a href="#" class="header-item">Pricing</a>
+					</li>
+				</ul>
+			</div>
+			<a href="#"><img src="images/logo.png" alt="logo" class="logo"></a>
+			<ul class="header-list">
+				<li>
+					<a href="#" class="header-item">Help</a>
+				</li>
+				<li>
+					<a href="#" class="header-item">Contacts</a>
+				</li>
+				<li>
+					<button class="appButton"><i class="fab fa-apple"></i> <span>Get</span> App</button>
+				</li>
+			</ul>
+			<!-- Left slide navigation -->
+			<div id="header-nav" class="header-nav">
+				<div class="header-nav__top">
+					<div id="nav-close" class="header-nav__wrap">
+						<div class="header-nav__toggle"></div>
+					</div>
+					<a class="header-nav__logo" href="#"><img src="images/logo-white.png" alt="logo" class="logo"></a>
+					<ul class="header-nav_menu">
+						<li>
+							<a href="#" class="header-nav__item">Tour</a>
+						</li>
+						<li>
+							<a href="#" class="header-nav__item">Features</a>
+						</li>
+						<li>
+							<a href="#" class="header-nav__item">Pricing</a>
+						</li>
+						<li>
+							<a href="#" class="header-nav__item">Help</a>
+						</li>
+						<li>
+							<a href="#" class="header-nav__item">Contacts</a>
+						</li>
+					</ul>
+					<button class="appButton"><i class="fab fa-apple"></i> <span>Get</span> App</button>
+				</div>
+				<div class="header-nav__bottom">
+					<p>Made with love by <a href="#">Onai Kuanyshov</a></p>
+					<p>Developed by <a href="#">Craft Work</a></p>
+					<ul class="header-nav__socials">
+						<li>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-google-plus-g"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-tumblr"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-pinterest-p"></i></a>
+						</li>
+						<li>
+							<a href=""><i class="fab fa-linkedin-in"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<main>
+		<section class="top">
+			<div class="top-wrap fixed-width">
+				<h1 class="top-heading">What happens tomorrow?</h1>
+				<p class="text">The sight of the tumblers restored Bob Sawyer to a degree of equanimity which he had not
+					possessed since his interview with his landlady. His face brightened up, and he began to feel quite
+					convivial.</p>
+				<a href="#" class="popup" id="popup"><i class="fas fa-play"></i>Watch video</a>
+				<img src="images/header_iphone.png" alt="iphone">
+			</div>
+			<div class="video" id="video">
+				<video src="video/video.mp4" controls="true"></video>
+				<i class="fas fa-times" id="close"></i>
+			</div>
+		</section>
+		<section class="clues fixed-width">
+			<div class="clues-clue">
+				<svg class="icon icon-lock">
+					<use xlink:href="#icon-lock"></use>
+					<symbol id="icon-lock" viewBox="0 0 32 32">
+						<path
+							d="M15 21.915v0 0c-0.583-0.206-1-0.762-1-1.415 0-0.828 0.672-1.5 1.5-1.5s1.5 0.672 1.5 1.5c0 0.653-0.417 1.209-1 1.415v2.594c0 0.263-0.224 0.491-0.5 0.491-0.268 0-0.5-0.22-0.5-0.491v-2.594zM14 22.5v1.998c0 0.829 0.666 1.502 1.5 1.502 0.828 0 1.5-0.671 1.5-1.502v-1.998c0.607-0.456 1-1.182 1-2 0-1.381-1.119-2.5-2.5-2.5s-2.5 1.119-2.5 2.5c0 0.818 0.393 1.544 1 2v0 0zM8 14v-3.501c0-4.143 3.358-7.499 7.5-7.499 4.134 0 7.5 3.358 7.5 7.499v3.501c1.659 0.005 3 1.35 3 3.009v9.981c0 1.673-1.347 3.009-3.009 3.009h-14.982c-1.663 0-3.009-1.347-3.009-3.009v-9.981c0-1.67 1.342-3.005 3-3.009v0 0zM9 14h1v-3.491c0-3.048 2.462-5.509 5.5-5.509 3.031 0 5.5 2.466 5.5 5.509v3.491h1v-3.507c0-3.586-2.917-6.493-6.5-6.493-3.59 0-6.5 2.908-6.5 6.493v3.507zM11 14h9v-3.499c0-2.486-2.020-4.501-4.5-4.501-2.485 0-4.5 2.009-4.5 4.501v3.499zM7.997 15c-1.103 0-1.997 0.897-1.997 2.006v9.988c0 1.108 0.891 2.006 1.997 2.006h15.005c1.103 0 1.997-0.897 1.997-2.006v-9.988c0-1.108-0.891-2.006-1.997-2.006h-15.005z">
+						</path>
+					</symbol>
+				</svg>
+				<h2>Real-time all the time</h2>
+				<p class="text">All your information is in proper secure with us. Seciroty goes first - is our slogan.
+				</p>
+				<p class="text">Our world-class security specialists will do their very best to protect your personal
+					information. Our servers are working live-time, so your information will be open to use it only
+					real-time, and when you are offline it is locked.</p>
+			</div>
+			<div class="clues-clue">
+				<svg class="alarm-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+					viewBox="0 0 32 32">
+					<title>alarm-clock</title>
+					<path
+						d="M27.229 14.775c-1.374-3.807-4.725-6.729-8.891-7.659 1.067-1.532 2.836-2.539 4.845-2.539 3.264 0 5.909 2.646 5.909 5.91 0 1.694-0.722 3.211-1.863 4.288zM15.864 4.799v3.716c5.67 0.231 10.199 4.888 10.199 10.614 0 2.392-0.799 4.592-2.13 6.367l2.464 4.269-2.047 1.183-2.109-3.654c-1.846 1.543-4.221 2.474-6.814 2.474-2.579 0-4.943-0.919-6.784-2.445l-2.165 3.747-2.047-1.183 2.516-4.356c-1.348-1.782-2.156-3.995-2.156-6.402 0-5.688 4.468-10.319 10.084-10.608v-3.722c-0.573-0.205-0.989-0.74-0.989-1.385 0-0.82 0.665-1.484 1.484-1.484s1.485 0.665 1.485 1.484c-0.001 0.645-0.417 1.18-0.991 1.385zM7.153 19.129c0 4.57 3.704 8.273 8.273 8.273s8.273-3.703 8.273-8.273c0-4.568-3.705-8.272-8.273-8.272s-8.273 3.704-8.273 8.272zM17.906 20.918h-2.969c-0.547 0-0.99-0.443-0.99-0.99v-3.959c0-0.547 0.443-0.99 0.99-0.99 0.546 0 0.989 0.443 0.989 0.99v2.969h1.979c0.547 0 0.99 0.443 0.99 0.99s-0.442 0.99-0.989 0.99zM3.772 14.775c-1.142-1.078-1.864-2.594-1.864-4.288 0-3.264 2.646-5.91 5.91-5.91 2.008 0 3.776 1.007 4.845 2.539-4.166 0.93-7.517 3.852-8.891 7.659z">
+					</path>
+				</svg>
+				<h2>Adopt without any obstacles</h2>
+				<p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Illo ad dolores iusto,
+					laboriosam sit, hic.</p>
+				<p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, est recusandae adipisci
+					natus dignissimos! Accusamus fugit ut eaque tempore atque alias modi cumque ipsa, officiis harum
+					ducimus, mollitia neque odio.</p>
+			</div>
+		</section>
+		<section class="protect">
+			<div class="protect-container fixed-width">
+				<img id="iphoneslidein" src="images/iphone-feature.png" alt="iphone">
+				<div class="protect-wrap">
+					<h2 class="heading">Your day is protected</h2>
+					<p class="texting">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, cupiditate.</p>
+					<p class="texting">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magni
+						exercitationem ut suscipit maiores ipsa, tempora soluta. Culpa necessitatibus obcaecati,
+						accusamus nisi, voluptatum inventore fugiat vero asperiores beatae, molestiae laboriosam.</p>
+					<button class="hack-btn">Try to hack us<i class="fas fa-arrow-right"></i></button>
+					<a href="#" class="more-btn">Learn more</a>
+				</div>
+			</div>
+		</section>
+		<section class="worldwide fixed-width">
+			<div class="worldwide-container">
+				<h2 class="heading">We are almost everywhere</h2>
+				<p class="texting">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, cupiditate. Lorem,
+					ipsum dolor, sit amet consectetur adipisicing elit. Amet, ipsa!</p>
+				<p class="texting">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magni exercitationem
+					ut suscipit maiores ipsa, tempora soluta. </p>
+				<h3>Partners</h3>
+				<div class="partners">
+					<img class="dropbox" src="images/dropbox.png" alt="dropbox">
+					<img src="images/evernote.png" alt="evernote">
+				</div>
+			</div>
+			<img class="worldwide-map" src="images/map.png" alt="map">
+		</section>
+		<section class="interface">
+			<h2 class="heading interface-heading">Beautiful interface</h2>
+			<p>Landing screen</p>
+			<div class="interface-screens">
+				<img class="screen" src="images/interface/img-1.png" alt="screen1">
+				<img class="screen" src="images/interface/img-2.png" alt="screen2">
+				<img src="images/interface/main-img.png" alt="screen3">
+				<img class="screen" src="images/interface/img-3.png" alt="screen4">
+				<img class="screen" src="images/interface/img-4.png" alt="screen5">
+			</div>
+			<img class="interface-logo" src="images/logo.png" alt="logo">
+			<h3 class=heading>Get it to your smartphone</h3>
+			<form action="#">
+				<input class="email" type="email" placeholder="onaikuanyshov@outlook.com">
+				<button>Send Invite<i class="fas fa-arrow-right"></i></button>
+			</form>
+			<p class="interface-dwnld">or dowload from</p>
+			<a href="#" class="appstore">
+				<img class="appstore" src="images/app-store-download.png" alt="appstore">
+			</a>
+		</section>
+		<section class="recommends fixed-width">
+			<div class="recommends-container">
+				<input id="control-1" name="control" type="radio" class="recommends-control" checked>
+				<input id="control-2" name="control" type="radio" class="recommends-control">
+				<input id="control-3" name="control" type="radio" class="recommends-control">
+
+				<div class="recommends-bullets">
+					<label for="control-1" class="bullet bullet-1"></label>
+					<label for="control-2" class="bullet bullet-2"></label>
+					<label for="control-3" class="bullet bullet-3"></label>
+				</div>
+
+				<div class="recommends-previous">
+					<label for="control-3" class="prev prev-arrow-1"></label>
+					<label for="control-1" class="prev prev-arrow-2"></label>
+					<label for="control-2" class="prev prev-arrow-3"></label>
+				</div>
+				<div class="recommends-next">
+					<label for="control-2" class="next next-arrow-1"></label>
+					<label for="control-3" class="next next-arrow-2"></label>
+					<label for="control-1" class="next next-arrow-3"></label>
+				</div>
+
+				<div class="recommends-slides">
+					<div class="recommends-slide slide-1">
+						<h2 class="slide-heading">New Providence is the great UI kit</h2>
+						<p class="slide-text">“Just then her head struck against the roof of the hall: in fact she was
+							now more than nine feet high, and she at once took up the little golden key and hurried off
+							to the garden door.”</p>
+						<div class="recommends-stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<p class="author">Cameron Downman</p>
+					</div>
+					<div class="recommends-slide slide-2">
+						<h2 class="slide-heading">New Providence is the great UI kit</h2>
+						<p class="slide-text">“Just then her head struck against the roof of the hall: in fact she was
+							now more than nine feet high, and she at once took up the little golden key and hurried off
+							to the garden door.”</p>
+						<div class="recommends-stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<p class="author">Cameron Downman</p>
+					</div>
+					<div class="recommends-slide slide-3">
+						<h2 class="slide-heading">New Providence is the great UI kit</h2>
+						<p class="slide-text">“Just then her head struck against the roof of the hall: in fact she was
+							now more than nine feet high, and she at once took up the little golden key and hurried off
+							to the garden door.”</p>
+						<div class="recommends-stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<p class="author">Cameron Downman</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="tariff">
+			<div class="tariff-container fixed-width">
+				<input id="changer-1" name="changer" type="radio" checked>
+				<input id="changer-2" name="changer" type="radio">
+				<div class="tariff-choice">
+					<h2 class="heading">Choose your perfect plan</h2>
+					<p class="">You are</p>
+					<div class="tariff-button">
+						<label for="changer-1" class="options options-1">
+							<span class="o-text">Individual</span>
+						</label>
+						<label for="changer-2" class="options options-2">
+							<span class="o-text">Company</span>
+						</label>
+					</div>
+					<p class="tariff-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti esse ut in
+						earum incidunt voluptatem, qui iure quisquam id obcaecati dolor molestiae ipsa, eos tempore fuga
+						soluta. Dolore, porro, quas.</p>
+					<p class="talk">Have a bigger team? <a href="#">Let's talk</a></p>
+				</div>
+
+				<div class="tariff-individual">
+					<div class="indi-starter">
+						<h3>Starter</h3>
+						<span>Free</span>
+						<p>Build your schedule every day</p>
+						<ul>
+							<li>Unlimited events</li>
+							<li>Connect Dropbox & Evernote</li>
+						</ul>
+						<div class="btn-wrap">
+							<a href="#" class="button">Get started</a>
+						</div>
+					</div>
+					<div class="indi-pro">
+						<h3>Pro</h3>
+						<span>$4.99</span>
+						<p>Make your life better</p>
+						<ul>
+							<li>Unlimited events</li>
+							<li>Connect Dropbox & Evernote</li>
+							<li>Personal assistant</li>
+						</ul>
+						<div class="btn-wrap">
+							<a href="#" class="button">Make me a Pro</a>
+						</div>
+					</div>
+				</div>
+				<div class="tariff-company">
+					<div class="indi-starter">
+						<h3>Starter</h3>
+						<span>$500</span>
+						<p>Build your schedule every day</p>
+						<ul>
+							<li>Unlimited events</li>
+							<li>Connect Dropbox & Evernote</li>
+						</ul>
+						<div class="btn-wrap">
+							<a href="#" class="button">Get started</a>
+						</div>
+					</div>
+					<div class="indi-pro">
+						<h3>Pro</h3>
+						<span>$4999.99</span>
+						<p>Make your life better</p>
+						<ul>
+							<li>Unlimited events</li>
+							<li>Connect Dropbox & Evernote</li>
+							<li>Personal assistant</li>
+						</ul>
+						<div class="btn-wrap">
+							<a href="#" class="button">Make me a Pro</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<form class="subscribe">
+				<h2>Subscribe our newsletters</h2>
+				<div class="subscribe-mail">
+					<input type="e-mail" placeholder="Your e-mail">
+					<button>Subscribe</button>
+				</div>
+				<p>We promise to never spam you.</p>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<div class="footer fixed-width">
+			<div class="footer-wrap">
+				<a class=logo href="#"><img src="images/logo.png" alt="logo"></a>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Aliquam, ullam nostrum voluptate magni
+					totam odit magnam nihil neque dolore labore.</p>
+				<a class="footer-appstore" href="#"><img src="images/app-store-download.png" alt="appStore"></a>
+				<ul class="footer-socials">
+					<li>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fab fa-google-plus-g"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fab fa-tumblr"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fab fa-pinterest-p"></i></a>
+					</li>
+					<li>
+						<a href=""><i class="fab fa-linkedin-in"></i></a>
+					</li>
+				</ul>
+			</div>
+			<ul class="footer-info">
+				<li>
+					<p>Learn more</p>
+					<a href="#">How it works?</a>
+					<a href="#">Meeting tools</a>
+					<a href="#">Live streaming</a>
+					<a href="#">Contact method</a>
+				</li>
+				<li>
+					<p>About us</p>
+					<a href="#">About us</a>
+					<a href="#">Features</a>
+					<a href="#">Privacy policy</a>
+					<a href="#">Terms & Conditions</a>
+				</li>
+				<li>
+					<p>Support</p>
+					<a href="#">F.A.Q.</a>
+					<a href="#">Contact us</a>
+					<a href="#">Live chat</a>
+					<a href="#">Phone call</a>
+				</li>
+			</ul>
+		</div>
+		<p class="made-by fixed-width">Made with love by <span>Kuanyshov Onai</span></p>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
